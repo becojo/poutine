@@ -31,5 +31,5 @@ jobs:
         
     - uses: equisoft-actions/sarif-annotator@cf2d9f1b82210c97edc9d9bfc60da62ef10d791b
       with:
-        sarif-path: resluts.sarif
+        sarif-path: results.sarif
         level: note # include all findings
