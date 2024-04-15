@@ -29,7 +29,7 @@ jobs:
       with:
         sarif_file: results.sarif
         
-    - uses: equisoft-actions/sarif-annotator@f83f1ce06ced8b5668664959b909c41738bc80ed
+    - uses: equisoft-actions/sarif-annotator@cf2d9f1b82210c97edc9d9bfc60da62ef10d791b
       with:
         sarif-path: resluts.sarif
         level: note # include all findings
